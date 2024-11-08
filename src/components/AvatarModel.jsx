@@ -20,7 +20,7 @@ const Avatar = ({ texturePath }) => {
 };
 
 const AvatarModel = () => {
-  const [selectedTexture, setSelectedTexture] = useState("/wewal-pot/textures/wicker_basket_02_arm_4k.jpg"); // Default texture
+  const [selectedTexture, setSelectedTexture] = useState("public/wewal-pot/textures/wicker_basket_02_arm_4k (1).jpg"); // Default texture
 
   // UI handler to update the selected texture
   const handleTextureChange = (texture) => {
